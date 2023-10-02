@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+width: 100%;
+/* height: 100%; */
+margin: 0px;
+padding: 0px;
+overflow-x:hidden ;
+}
+nav{
+    position: fixed;
+    top: 0;
+}
+.nav-border{
+    background-color: white;
+    border:2px solid transparent;
+    border-image: linear-gradient(80deg,black,#ff5593,#46f2f2);
+border-image-slice: 1;
+}
+.nav-title{
+    cursor: pointer;
+    font-family: 'Brittany Signature', sans-serif;
+font-weight: 900;
+color : #ff5593;
+}
+.nav-title:hover{
+color : #ff5593;
+}
+.nav-links{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.nav-links:hover{
+    color: black;
+    font-size: 1.01rem;
+    font-weight: 400;
+    transition: 0.8s;
+
+}
+.summary-all{
+    padding-top: 10%;
+    padding-left: 1.5%;
+}
+.summary-title,.summary-text{
+    color: black;
+}
+.summary-text{
+    /* font-family: serif; */
+    font-weight: 500;
+    text-align: left;
+}
+.github{
+width: 55px;
+}
+.linkedin{
+width: 50px;
+}
+.whatsapp{
+    width: 46px;
+}
+  .omar-ahmed{
+    font-weight: 700;
+    color: black;
+  }
+.button-1{
+    height: 40px;
+    /* width: 150px; */
+    color: white;
+    background-color: #ff5593;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button-2{
+    height: 40px;
+    /* width: 150px; */
+    background-color:transparent;
+    color: #ff5593;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px #ff5593 solid;
+}
+.button-1:hover{
+    background-color: #f6377d;
+    scale: 1.01;
+
+}
+.button-2:hover{
+    background-color: #f6377d;
+    transition: 0.7s;
+    scale: 1.01;
+    
+}
+.about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.few-words-about-me{
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: rgb(40, 40, 40);
+    font-weight: 500;
+}
+.web-developer{
+    font-size: 1.09rem;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+
+}
+.omar-img{
+    width: 450px;
+    
+}
+.omar-img:hover{
+    transition: 1.9s;
+scale: 1.003;
+}
+.bg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proficiency{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.value{
+color:white ;
+float: right;
+}
+.progress{
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+.html,.css,.js,.bootstrap,.php,.sql{
+    color: white;
+    padding: 5px;
+    padding-left: 12px;
+}
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.html-progres{
+    display: block;
+animation: load1 6s normal forwards;
+border-radius: 50px;
+background-image: linear-gradient(to right,rgba(67,67,67,255),black);
+height: 30px;
+width: 0;
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+    }
+.css-progres{
+    display: block;
+    animation: load2 5s normal forwards;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgba(67,67,67,255),black);
+    height: 30px;
+    width: 0;
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+    }
+.js-progres{
+    display: block;
+    animation: load3 4s normal forwards;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgba(67,67,67,255),black);
+    height: 30px;
+    width: 0;
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+    }
+.bootstrap-progres{
+    display: block;
+    animation: load4 6s normal forwards;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgba(67,67,67,255),black);
+    height: 30px;
+    width: 0;
+}
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 35%;
+    }
+    }
+.php-progres{
+    display: block;
+    animation: load5 4s normal forwards;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgba(67,67,67,255),black);
+    height: 30px;
+    width: 0;
+}
+@keyframes load6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%;
+    }
+    }
+    
+.sql-progres{
+    display: block;
+    animation: load6 5s normal forwards;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgba(67,67,67,255),black);
+    height: 30px;
+    width: 0;
+}
+.bg-proficiency-image{
+    padding-left: 4rem !important;
+    height: 326px;
+}
+.projects{
+    text-align: center;
+    color: black;
+   padding-bottom: 4rem;
+}
+.card-1,.card-2,.card-3,.card-4{
+    /* height: 220px; */
+    margin: 0.7rem;
+    background-color: white;
+}
+
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+    background-image: linear-gradient(to right ,#ff5593,#46f2f2);
+    transition: 0.5s;
+    
+}
+.card-text-1,.card-text-2,.card-text-3,.card-text-4{
+color: rgb(51, 50, 50);
+}
+.card-text-1:hover,.card-text-2:hover,.card-text-3:hover,.card-text-4:hover{
+color:black;
+transition: 1s;
+}
+.view-btn{
+    background-color: white;
+    color: black;
+    border-left: #f6377d 3px solid !important;
+    border-top: #f6377d 3px solid !important;
+    border-right: #46f2f2 1.5px solid !important;
+    border-bottom: #46f2f2 1.5px solid !important;
+}
+.view-btn:hover{
+    border-left: black 3px solid !important;
+    border-top: black 3px solid !important;
+    border-right: black 1.5px solid !important;
+    border-bottom: black 1.5px solid !important;
+    transition: 0.7s;
+    background-color: black;
+    color:white;
+}
+
+
+
